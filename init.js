@@ -7,7 +7,7 @@ main().then(()=>{
     console.log(err)
 })
 async function main() {
-   await mongoose.connect("mongodb://localhost:27017/whatsapp");
+   await mongoose.connect("mongodb://localhost:27017/fakewhatsapp");
 }
 
 let allChat=[

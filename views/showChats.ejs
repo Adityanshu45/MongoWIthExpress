@@ -20,6 +20,9 @@
                         Edit
                     </button>
                 </form>
+                <form action="/chats/<%=chat._id%>">
+                    <button class="editBtn">show</button>
+                </form>
                 <form method="POST" action="/chats/<%=chat._id%>?_method=DELETE">
                     <button class="editBtn">
                         Delete
